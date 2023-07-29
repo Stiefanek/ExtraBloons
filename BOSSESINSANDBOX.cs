@@ -32,6 +32,8 @@ namespace BOSSESINSANDBOX
                         sortedBloons.Add(bloon);
                     if (bloon.baseId == "Lych")
                         sortedBloons.Add(bloon);
+                    if (bloon.baseId == "Phayze")
+                        sortedBloons.Add(bloon);
                     if (bloon.baseId == "MiniLych")
                         sortedBloons.Add(bloon);
                     if (bloon.baseId == "MiniLychElite")
