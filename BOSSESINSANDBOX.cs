@@ -38,6 +38,8 @@ namespace BOSSESINSANDBOX
                         sortedBloons.Add(bloon);
                     if (bloon.baseId == "Dreadbloon")
                         sortedBloons.Add(bloon);
+                    if (bloon.baseId == "Phayze")
+                        sortedBloons.Add(bloon);
                     if (bloon.baseId == "Golden")
                         sortedBloons.Add(bloon);
                     if (bloon.baseId == "GoldenLead")
@@ -64,6 +66,7 @@ namespace BOSSESINSANDBOX
                         sortedBloons.Add(bloon);
                     if (bloon.baseId == "DreadRockBloonElite5")
                         sortedBloons.Add(bloon);
+
                 }
                 return true;
             }
